@@ -1,0 +1,784 @@
+2024/03/02 20:55:21 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /user/                    --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2024/03/02 20:57:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /user/                    --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:00:04 | 404 |            0s |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 21:00:08 | 404 |            0s |             ::1 | POST     "/users/login"
+2024/03/02 21:00:40 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:00:49 | 400 |      1.2428ms |             ::1 | POST     "/users/register"
+2024/03/02 21:01:46 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:01:49 | 200 |     42.9407ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:05:51 | 400 |       3.029ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:06:56 | 400 |            0s |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:07:51 | 400 |            0s |             ::1 | POST     "/users/register"
+2024/03/02 21:20:42 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:20:49 | 400 |       719.2µs |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:20:56 | 400 |      6.9668ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:21:18 | 404 |            0s |             ::1 | GET      "/user"
+2024/03/02 21:22:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:22:44 | 400 |      2.8771ms |             ::1 | POST     "/users/register"
+2024/03/02 21:23:58 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:26:54 | 400 |     21.6806ms |             ::1 | POST     "/users/register"
+2024/03/02 21:27:46 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:27:49 | 400 |      2.5757ms |             ::1 | POST     "/users/register"
+2024/03/02 21:28:12 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:28:15 | 400 |      2.6902ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:28:24 | 400 |      1.6917ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 21:28:32 | 200 |     36.5876ms |             ::1 | POST     "/users/register"
+2024/03/02 21:43:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:44:41 | 404 |            0s |             ::1 | POST     "/users/login"
+2024/03/02 21:45:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /login                    --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:45:43 | 404 |            0s |             ::1 | POST     "/users/login"
+2024/03/02 21:46:41 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 21:46:45 | 200 |      2.2597ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 21:46:55 | 404 |      1.1403ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 22:20:36 | 200 |     18.1736ms |             ::1 | POST     "/users/login"
+2024/03/02 22:21:23 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:id         --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:21:33 | 404 |      2.6094ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 22:21:37 | 200 |      1.9989ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 22:23:03 | 400 |      2.3009ms |             ::1 | PUT      "/users/update/:id"
+[GIN] 2024/03/02 - 22:24:21 | 500 |     12.7219ms |             ::1 | PUT      "/users/update/2"
+[GIN] 2024/03/02 - 22:25:08 | 400 |       862.8µs |             ::1 | PUT      "/users/update/1"
+[GIN] 2024/03/02 - 22:27:30 | 400 |       764.3µs |             ::1 | PUT      "/users/update/1"
+2024/03/02 22:27:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:id         --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:27:45 | 400 |      2.8398ms |             ::1 | PUT      "/users/update/1"
+[GIN] 2024/03/02 - 22:27:54 | 500 |      2.2779ms |             ::1 | PUT      "/users/update/2"
+2024/03/02 22:29:04 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:id         --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:29:18 | 400 |      1.0616ms |             ::1 | PUT      "/users/update/1"
+[GIN] 2024/03/02 - 22:29:47 | 200 |      7.8338ms |             ::1 | PUT      "/users/update/2"
+[GIN] 2024/03/02 - 22:29:56 | 400 |      2.7206ms |             ::1 | PUT      "/users/update/2"
+[GIN] 2024/03/02 - 22:30:06 | 200 |      5.3496ms |             ::1 | PUT      "/users/update/2"
+[GIN] 2024/03/02 - 22:30:21 | 200 |      5.5231ms |             ::1 | PUT      "/users/update/2"
+2024/03/02 22:35:56 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:id         --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:36:09 | 200 |      7.1491ms |             ::1 | PUT      "/users/update/2"
+[GIN] 2024/03/02 - 22:36:35 | 200 |      1.5615ms |             ::1 | POST     "/users/login"
+2024/03/02 22:39:51 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:id         --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:39:54 | 400 |      5.6235ms |             ::1 | PUT      "/users/update/1"
+[GIN] 2024/03/02 - 22:40:22 | 200 |       12.11ms |             ::1 | PUT      "/users/update/1"
+[GIN] 2024/03/02 - 22:45:02 | 401 |      2.1687ms |             ::1 | PUT      "/users/update/:userId"
+[GIN] 2024/03/02 - 22:45:11 | 401 |       144.1µs |             ::1 | PUT      "/users/update/:userId"
+2024/03/02 22:54:22 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:54:47 | 200 |     10.1071ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 22:55:01 | 200 |      7.9297ms |             ::1 | POST     "/users/register"
+[GIN] 2024/03/02 - 22:55:18 | 200 |      1.5678ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 22:56:06 | 400 |       852.8µs |             ::1 | PUT      "/users/update/4"
+[GIN] 2024/03/02 - 22:56:20 | 200 |       358.8µs |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 22:56:56 | 500 |     21.6593ms |             ::1 | POST     "/users/login"
+2024/03/02 22:57:51 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:57:57 | 500 |      9.4109ms |             ::1 | POST     "/users/login"
+2024/03/02 22:59:26 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 22:59:35 | 500 |     10.6331ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:00:23 | 500 |      20.107ms |             ::1 | POST     "/users/login"
+2024/03/02 23:02:02 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:02:08 | 500 |      7.6347ms |             ::1 | POST     "/users/login"
+2024/03/02 23:03:12 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:03:15 | 500 |      7.7217ms |             ::1 | POST     "/users/login"
+2024/03/02 23:03:41 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:03:48 | 500 |      9.1102ms |             ::1 | POST     "/users/login"
+2024/03/02 23:18:49 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:18:53 | 500 |     20.7376ms |             ::1 | POST     "/users/login"
+2024/03/02 23:19:46 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2024/03/02 23:20:32 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:20:35 | 200 |       2.592ms |             ::1 | POST     "/users/login"
+2024/03/02 23:21:05 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:21:07 | 200 |      1.1613ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:21:42 | 200 |      1.5283ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:22:16 | 200 |      6.6162ms |             ::1 | POST     "/users/login"
+2024/03/02 23:23:03 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:23:06 | 404 |      1.5501ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:23:15 | 200 |       964.6µs |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:23:22 | 500 |      8.4571ms |             ::1 | POST     "/users/login"
+2024/03/02 23:25:10 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:25:18 | 200 |        1.08ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:25:22 | 500 |      6.2869ms |             ::1 | POST     "/users/login"
+2024/03/02 23:25:49 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:25:51 | 500 |      7.7911ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:26:00 | 500 |      20.362ms |             ::1 | POST     "/users/login"
+2024/03/02 23:26:03 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:26:07 | 404 |      1.7481ms |             ::1 | POST     "/users/login"
+2024/03/02 23:26:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:26:41 | 404 |      1.8482ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/02 - 23:27:46 | 200 |      3.6028ms |             ::1 | POST     "/users/login"
+2024/03/02 23:28:47 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:28:56 | 400 |       616.5µs |             ::1 | DELETE   "/users/delete/4"
+2024/03/02 23:29:17 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/02 - 23:29:20 | 200 |     22.0507ms |             ::1 | DELETE   "/users/delete/4"
+2024/03/03 21:41:45 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2024/03/03 21:42:11 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+[GIN] 2024/03/03 - 21:43:40 | 401 |       999.5µs |             ::1 | POST     "/photos/"
+[GIN] 2024/03/03 - 21:44:03 | 200 |     15.9869ms |             ::1 | POST     "/users/login"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+2024/03/03 21:44:18 conten-type .jpg
+[GIN] 2024/03/03 - 21:44:19 | 200 |     15.5642ms |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+[GIN] 2024/03/03 - 21:58:52 | 400 |      3.1666ms |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+[GIN] 2024/03/03 - 21:59:01 | 400 |       770.8µs |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+[GIN] 2024/03/03 - 21:59:20 | 400 |      1.9565ms |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+2024/03/03 21:59:57 conten-type .png
+[GIN] 2024/03/03 - 21:59:57 | 200 |     27.2489ms |             ::1 | POST     "/photos/"
+2024/03/03 23:23:32 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/03 - 23:23:36 | 200 |      2.5326ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/03 - 23:25:36 | 400 |     10.4184ms |             ::1 | PUT      "/photos/4"
+[GIN] 2024/03/03 - 23:26:37 | 401 |            0s |             ::1 | PUT      "/photos/4"
+[GIN] 2024/03/03 - 23:26:42 | 400 |       2.859ms |             ::1 | PUT      "/photos/4"
+2024/03/03 23:28:10 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/03 - 23:28:20 | 400 |      4.9358ms |             ::1 | PUT      "/photos/4"
+2024/03/03 23:35:08 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2024/03/03 23:35:13 conten-type .jpg
+[GIN] 2024/03/03 - 23:35:13 | 200 |     21.8093ms |             ::1 | PUT      "/photos/4"
+2024/03/03 23:42:41 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+2024/03/03 23:43:01 conten-type .jpg
+[GIN] 2024/03/03 - 23:43:01 | 200 |     15.2886ms |             ::1 | PUT      "/photos/4"
+2024/03/03 23:43:52 conten-type .png
+[GIN] 2024/03/03 - 23:43:52 | 200 |     12.1083ms |             ::1 | PUT      "/photos/4"
+[GIN] 2024/03/03 - 23:50:58 | 400 |      7.8296ms |             ::1 | PUT      "/photos/4"
+2024/03/04 00:05:10 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] DELETE /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerRemovePhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+2024/03/04 00:05:57 conten-type .jpg
+[GIN] 2024/03/04 - 00:05:57 | 200 |     15.1404ms |             ::1 | POST     "/photos/"
+[GIN] 2024/03/04 - 00:10:00 | 200 |     21.4685ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/04 - 00:10:16 | 400 |      7.8473ms |             ::1 | DELETE   "/photos/5"
+[GIN] 2024/03/04 - 00:10:26 | 200 |      1.2716ms |             ::1 | POST     "/users/login"
+[GIN] 2024/03/04 - 00:10:41 | 200 |     11.7963ms |             ::1 | DELETE   "/photos/5"
+2024/03/04 00:32:16 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] DELETE /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerRemovePhoto (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.GetPhoto (5 handlers)
+2024/03/04 00:32:39 ====================================
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] HEAD   /public/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (4 handlers)
+[GIN-debug] POST   /users/login              --> UserPhoto-API/controllers/auth_controller.Login (4 handlers)
+[GIN-debug] POST   /users/register           --> UserPhoto-API/controllers/user_controller.Register (4 handlers)
+[GIN-debug] PUT    /users/update/:userId     --> UserPhoto-API/controllers/user_controller.UpdateUser (5 handlers)
+[GIN-debug] DELETE /users/delete/:userId     --> UserPhoto-API/controllers/user_controller.DeleteUser (5 handlers)
+[GIN-debug] POST   /photos/                  --> UserPhoto-API/controllers/photo_controller.HandlerUploadPhoto (5 handlers)
+[GIN-debug] PUT    /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerEditPhoto (5 handlers)
+[GIN-debug] DELETE /photos/:photoId          --> UserPhoto-API/controllers/photo_controller.HandlerRemovePhoto (5 handlers)
+[GIN-debug] GET    /photos/                  --> UserPhoto-API/controllers/photo_controller.GetPhoto (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8000
+[GIN] 2024/03/04 - 00:33:43 | 200 |     20.7154ms |             ::1 | POST     "/users/login"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+2024/03/04 00:39:08 conten-type .jpg
+[GIN] 2024/03/04 - 00:39:08 | 200 |     20.4465ms |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 301: /photos/ --> /photos/
+[GIN] 2024/03/04 - 00:39:51 | 200 |      2.5407ms |             ::1 | GET      "/photos/"
+[GIN-debug] redirecting request 307: /photos/ --> /photos/
+2024/03/04 00:42:48 conten-type .jpg
+[GIN] 2024/03/04 - 00:42:48 | 200 |     22.9039ms |             ::1 | POST     "/photos/"
+[GIN-debug] redirecting request 301: /photos/ --> /photos/
+[GIN] 2024/03/04 - 00:42:54 | 200 |      3.0225ms |             ::1 | GET      "/photos/"
+[GIN] 2024/03/04 - 00:43:05 | 200 |      3.4727ms |             ::1 | POST     "/users/login"
+[GIN-debug] redirecting request 301: /photos/ --> /photos/
+[GIN] 2024/03/04 - 00:43:18 | 200 |       963.2µs |             ::1 | GET      "/photos/"
