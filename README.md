@@ -30,4 +30,4 @@ Database: MySQL
 FrameWork: Gin Gonic
 Tools: GORM, JWT, Go-Migrate, Gin-Contrib (Cors), Joho GoDotEnv
 
-Tugas Akhir (Task 5) dari program Project Based Intership BPTN Syariah - Rakamin
+Tugas Akhir (Task 5) dari program Project Based Intership Fullstack Developer - Rakamin
